@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+body {
+            font-family: Arial, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 150vh;
+    background-image: url(my.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 15%;
+    border: black; 
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar{
+    text-align: center;
+    flex: 1;
+
+}
+
+.navbar a{
+    padding: 6px 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.heading h1{
+    font-size: 50px;
+    color: #FCCE04;
+    margin-bottom: 25px;
+    position: relative;
+    animation: fadeIn 1s ease-in-out; /* Apply fadeIn animation */
+}
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #4acf50;
+}
+.heading p{
+    font-size: 18px;
+    color: white;
+    background-color: rgba(25, 25, 25, 0.5);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    animation: fadeIn 1s ease-in-out; /* Apply fadeIn animation */
+}
+
+.about{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    animation: fadeIn 1s ease-in-out; /* Apply fadeIn animation */
+}
+.about h1{
+    font-size: 50px;
+    color: #FCCE04;
+    margin-bottom: 25px;
+    position: relative;
+
+}
+.about h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #4acf50;
+}
+
+.about p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    background-color: rgba(25, 25, 25, 0.5);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+.but {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FCCE04; /* Green */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Hover effect */
+.but:hover {
+  background-color: #45a049;
+}
+
+/* Active state */
+.but:active {
+  background-color: #3e8e41;
+}
+
+/* Style for the link inside the button */
+.but a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
