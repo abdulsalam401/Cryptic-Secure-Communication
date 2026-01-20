@@ -25,5 +25,6 @@ urlpatterns = [
     path('aboutus/', views.Aboutus),
     path('Read_more/', views.Read_more),
     path('p/', views.PrivacyPolicy),
+    path('developer/', views.Developer),
 ]
 

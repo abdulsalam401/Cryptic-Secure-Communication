@@ -72,3 +72,6 @@ def Read_more(request):
 
 def PrivacyPolicy(request):
     return render(request, 'privacypolicy.html')
+
+def Developer(request):
+    return render(request, 'developer.html')
