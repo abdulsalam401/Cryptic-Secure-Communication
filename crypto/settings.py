@@ -56,7 +56,7 @@ ROOT_URLCONF = 'crypto.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR,"temp"],
+        'DIRS': [BASE_DIR / "temp"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
