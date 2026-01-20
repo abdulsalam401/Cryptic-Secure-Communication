@@ -5,39 +5,76 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>About Us</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-        <link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About Us</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="container">
-            <div class="header">
-                <div class="navbar">
-                    <a href="/">Home</a>
-                    <a href="/crypto">Cryptography</a>
-                    <a href="/aboutus">About us</a>
-                </div>    
-            </div>
-            <div class="heading">
-                <h1><b>About Us</b></h1>
-                <p><b>Hello Everyone, welcome to our Secure Communication System, which provides the most secure communication system.</b></p>
-            </div>
-            <section class="about">
-                <h1><b>Secure Communication System</b></h1>
-                <p class="p"><b>Our "About Us" section proudly introduces our encryption and decryption system, a cutting-edge solution designed to safeguard sensitive data and ensure secure communication channels. At the heart of our system lies a robust encryption algorithm that transforms plaintext messages into indecipherable ciphertext, shielding them from unauthorized access and prying eyes. Utilizing state-of-the-art cryptographic techniques, we offer unparalleled protection against data breaches and cyber threats, empowering individuals and organizations to exchange information with confidence and peace of mind. Additionally, our system boasts seamless decryption capabilities, enabling authorized users to effortlessly decipher encrypted messages and retrieve their original content without compromising security. With a steadfast commitment to innovation and security, we strive to redefine the landscape of digital communication, delivering trust and reliability in an ever-evolving technological landscape.</b></p>
-            </section>
-            <div class="content">
-                <button class="but"><a href="/Read_more"><b>Read More</b></a></button>
+    <div class="container">
+        <div class="header">
+            <div class="navbar">
+                <a href="/">Home</a>
+                <a href="/crypto">Cryptography</a>
+                <a href="/aboutus">About us</a>
             </div>
         </div>
-        <script src="" async defer></script>
-    </body>
+        <div class="heading">
+            <h1><b>About Us</b></h1>
+            <p><b>Hello Everyone, welcome to our Secure Communication System, which provides the most secure
+                    communication system.</b></p>
+        </div>
+        <section class="about">
+            <h1><b>Secure Communication System</b></h1>
+            <p class="p"><b>Our "About Us" section proudly introduces our encryption and decryption system, a
+                    cutting-edge solution designed to safeguard sensitive data and ensure secure communication channels.
+                    At the heart of our system lies a robust encryption algorithm that transforms plaintext messages
+                    into indecipherable ciphertext, shielding them from unauthorized access and prying eyes. Utilizing
+                    state-of-the-art cryptographic techniques, we offer unparalleled protection against data breaches
+                    and cyber threats, empowering individuals and organizations to exchange information with confidence
+                    and peace of mind. Additionally, our system boasts seamless decryption capabilities, enabling
+                    authorized users to effortlessly decipher encrypted messages and retrieve their original content
+                    without compromising security. With a steadfast commitment to innovation and security, we strive to
+                    redefine the landscape of digital communication, delivering trust and reliability in an
+                    ever-evolving technological landscape.</b></p>
+        </section>
+
+        <div class="developer-section">
+            <h1 class="dev-title">Meet the <br> <span>Developers</span></h1>
+            <div class="underline"></div>
+
+            <div class="dev-card">
+                <div class="dev-img-container">
+                    <img src="{% static 'images/developer.png' %}" alt="Abdul Salam">
+                </div>
+                <div class="dev-info">
+                    <h2>Abdul Salam</h2>
+                    <h3>SECURITY ANALYST</h3>
+
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +92 3011909963</p>
+                        <p><i class="fas fa-envelope"></i> abdulsalam.cyber1@gmail.com</p>
+                        <p><i class="fab fa-github"></i> github.com/abdulsalam401</p>
+                        <p><i class="fab fa-linkedin"></i> abdul-salam-39467a274</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <button class="but"><a href="/Read_more"><b>Read More</b></a></button>
+        </div>
+    </div>
+    <script src="" async defer></script>
+</body>
+
 </html>
