@@ -1,5 +1,4 @@
-# Create .gitignore file
-echo "# Python
+# Python
 __pycache__/
 *.pyc
 *.pyo
@@ -27,7 +26,8 @@ media/
 
 # Static files (if collected)
 staticfiles/
+staticfiles_build/
 
 # OS
 .DS_Store
-Thumbs.db" > .gitignore
+Thumbs.db
